@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpaceX - Viagem Espacial</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <div class="container header-container">
+            <a href="#" class="logo">
+                <img src="logo-spacex.png" alt="SpaceX Logo">
+            </a>
+            <nav class="desktop-nav">
+                <ul>
+                    <li><a href="#">FALCON 9</a></li>
+                    <li><a href="#">FALCON HEAVY</a></li>
+                    <li><a href="#">DRAGON</a></li>
+                    <li><a href="#">STARSHIP</a></li>
+                    <li><a href="#">HUMAN SPACEFLIGHT</a></li>
+                    <li><a href="#">RIDESHARE</a></li>
+                    <li><a href="#">STARSHIELD</a></li>
+                    <li><a href="#">STARLINK</a></li>
+                </ul>
+            </nav>
+            <div class="header-right">
+                 <a href="#" class="shop-link">SHOP</a>
+                 <button class="menu-toggle" aria-label="Toggle menu">
+                    <img src="menu-icon.png" alt="Menu Icon">
+                 </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" style="background-image: url('hero-bg.png');">
+            <div class="container hero-container">
+                <div class="form-section">
+                    <h2>SPACE TRAVEL</h2>
+                    <p>Choose your destination</p>
+                    <form>
+                        <label for="fullname">Full Name</label>
+                        <input type="text" id="fullname" name="fullname" value="Value">
+
+                        <label for="location">Location</label>
+                        <select id="location" name="location">
+                            <option value="value">Value</option>
+                        </select>
+
+                        <label for="additional-info">Additional information</label>
+                        <textarea id="additional-info" name="additional-info">Value</textarea>
+
+                        <div class="terms">
+                            <input type="checkbox" id="terms" name="terms" checked>
+                            <label for="terms">I accept the terms<br><a href="#">Read our T&Cs</a></label>
+                        </div>
+
+                        <button type="submit" class="btn">START SPACEWALK</button>
+                    </form>
+                </div>
+
+                <div class="hero-text">
+                    <h1>MAKING HUMANITY MULTIPLANETARY</h1>
+                    <p>Building on the achievements of Falcon 9 and Falcon Heavy, SpaceX is working on a next generation of fully reusable launch vehicles that will be the most powerful ever built, capable of carrying humans to Mars and other destinations in the solar system.</p>
+                </div>
+            </div>
+
+            <div id="id01" class="modal">
+                    <form class="modal-content animate" action="/action_page.php" method="post">
+                        <div class="imgcontainer">
+                        <span class="close" title="Close Modal">&times;</span>
+                        </div>
+                        <div class="astronauttitle">
+                            <img src="astronaut.png" alt="Avatar" class="avatar">
+                            <h2>Welcome Astronaut</h2>
+                        </div>
+                        
+                    </form>
+            </div>
+            
+        </section>
+
+        <section class="missions">
+            <div class="container missions-container">
+                <div class="mission-item">
+                    <h3>UPCOMING LAUNCH</h3>
+                    <h2>STARLINK MISSION</h2>
+                    <a href="#" class="btn-outline">LEARN MORE</a>
+                    <img src="starlink-rocket.png" alt="Starlink Mission Rocket">
+                </div>
+                <div class="mission-item">
+                    <h3>RECENT LAUNCH</h3>
+                    <h2>CRS-32 MISSION</h2>
+                    <a href="#" class="btn-outline">LEARN MORE</a>
+                    <img src="rocket-launch.png" alt="CRS-32 Mission Launch">
+                </div>
+                <div class="mission-item">
+                    <h3>ADVANCING HUMAN</h3>
+                    <h2>SPACEFLIGHT</h2>
+                    <a href="#" class="btn-outline">LEARN MORE</a>
+                    <img src="eva-suit.png" alt="Human Spaceflight Suit">
+                </div>
+                <div class="mission-item">
+                    <h3>TO MAKE LIFE</h3>
+                    <h2>MULTIPLANETARY</h2>
+                    <a href="#" class="btn-outline">LEARN MORE</a>
+                    <img src="starship-vertical.png" alt="Starship for Multiplanetary Life">
+                </div>
+            </div>
+
+        </section>
+
+        <section class="mars-beyond" style="background-image: url('mars-beyond-bg.png');">
+            <div class="container mars-beyond-container">
+                <h1>MARS & BEYOND</h1>
+                <p class="subtitle">THE ROAD TO MAKING HUMANITY MULTIPLANETARY</p>
+                <blockquote>
+                    "You want to wake up in the morning and think the future is going to be great - and that's what being a spacefaring civilization is all about. It's about believing in the future and thinking that the future will be better than the past. And I can't think of anything more exciting than going out there and being among the stars."
+                    <cite>- Elon Musk</cite>
+                </blockquote>
+                <div class="dots">
+                    <span></span><span></span><span></span>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-footer" style="background-image: url('contact-footer-bg.png');">
+             <div class="container contact-footer-container">
+                <p>For inquiries about our human spaceflight program, contact <a href="mailto:sales@spacex.com">sales@spacex.com</a></p>
+                <a href="#" class="btn-outline">CONTACT US</a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container footer-container">
+            <span>SpaceX © 2025</span>
+            <nav>
+                <ul>
+                    <li><a href="#">PRIVACY POLICY</a></li>
+                    <li><a href="#">SUPPLIERS</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+
+   <script src="script.js"></script>
+
+</body>
+</html>
